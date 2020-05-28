@@ -29,9 +29,7 @@ a {
   overflow: hidden;
 }
 /* шапка сайта */
-.link.link-color {
-  color: #2196f3;
-  }
+
 .container-hero {
   text-align: center;
 }
@@ -92,8 +90,10 @@ a {
 .link-link:visited {
   color: var(--title-text-kolor);
 }
-.link-link:hover,
-.link-link:active {
+.link-link:hover{
+  color: #2196f3;
+}
+.link.active{
   color: #2196f3;
 }
 .link-link {
